@@ -55,7 +55,7 @@ jobs:
           !venv/
 
   deploy-to-webapp:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted-win
     needs: build-and-test
 #    environment:
 #      name: 'production'
