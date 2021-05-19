@@ -55,7 +55,7 @@ jobs:
           !venv/
 
   deploy-to-webapp:
-    runs-on: self-hosted-win
+    runs-on: self-hosted
     needs: build-and-test
 #    environment:
 #      name: 'production'
